@@ -12,7 +12,7 @@
 		width: 100%;
 		background-color: _palette(bg-alt);
 		padding: 1em 0;
-		@include vendor('transition', 'padding #{_duration(transition)} ease');
+		@include vendor('transition', 'padding #{_duration(menu)} ease');
 
 		.inner {
 			@include vendor('display', 'flex');
@@ -21,7 +21,7 @@
 
 		&.shrink {
 			padding: 0.1em 0;
-			@include vendor('transition', 'padding #{_duration(transition)} ease');
+			@include vendor('transition', 'padding #{_duration(menu)} ease');
 		}
 
 		.nav-small {
