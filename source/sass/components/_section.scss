@@ -14,12 +14,6 @@
 
 	header {
 		p {
-			margin-top: _size(element-margin) * -0.5;
-		}
-
-		@include breakpoint(small) {
-			p {
-				margin-top: 0;
-			}
+			font-size: 1.25em;
 		}
 	}
