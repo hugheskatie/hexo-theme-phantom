@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@import url("https://fonts.googleapis.com/css?family=Over+the+Rainbow");
 
 /*
 	Phantom by HTML5 UP
@@ -1641,7 +1641,7 @@
 
 	body, input, select, textarea {
 		color: #585858;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Over The Rainbow", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
@@ -1723,7 +1723,7 @@
 		font-weight: 900;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
-		text-transform: uppercase;
+		text-transform: lowercase;
 		letter-spacing: 0.35em;
 	}
 
@@ -2482,7 +2482,7 @@
 		text-align: center;
 		text-decoration: none;
 		text-overflow: ellipsis;
-		text-transform: uppercase;
+		text-transform: lowercase;
 		white-space: nowrap;
 	}
 
@@ -2864,7 +2864,7 @@
 			letter-spacing: 0.35em;
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
-			text-transform: uppercase;
+			text-transform: lowercase;
 			display: inline-block;
 		}
 
@@ -2921,7 +2921,7 @@
 						font-size: 0.8em;
 						font-weight: 900;
 						letter-spacing: 0.35em;
-						text-transform: uppercase;
+						text-transform: lowercase;
 					}
 
 					#header nav ul li a[href="#menu"] {
