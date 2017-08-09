@@ -43,6 +43,10 @@
 			display: inline-block;
 			@include vendor('flex', '1');
 
+			a.logo:hover {
+				color: white !important;
+			}
+
 			> * {
 				display: inline-block;
 				vertical-align: middle;
@@ -73,7 +77,7 @@
 
 				li {
 
-					font-family: _font(family-title);
+					font-family: _font(family);
 					display: block;
 					padding: 0;
 
@@ -90,6 +94,10 @@
 						font-weight: _font(weight-bold);
 						letter-spacing: 0.2em;
 						text-transform: lowercase;
+
+						&:hover {
+							color: rgba(255,255,255, 0.5) !important;
+						}
 					}
 
 					a[href="#menu"] {
