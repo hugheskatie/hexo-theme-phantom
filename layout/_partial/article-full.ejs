@@ -4,11 +4,10 @@
     <div class="meta">
         <%= item.date.format(config.date_format) %>
     </div>
+<% } else if(item.cover_detail || theme.default_cover_detail) { %>
+    <h1 class="splash-title" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(<%- item.cover_detail || theme.default_cover_detail %>)"><%- item.title || theme.default_post_title || "Untitled" %></h1>
 <% } else { %>
     <h1><%- item.title || theme.default_post_title || "Untitled" %></h1>
-<% } %>
-<% if(item.cover_detail || theme.default_cover_detail) { %>
-    <span class="image main"><img src="<%- item.cover_detail || theme.default_cover_detail %>" alt="" /></span>
 <% } %>
 
 <!-- Gallery -->

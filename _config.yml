@@ -39,7 +39,7 @@ show_dates:
 #     comment_colorscheme: light
 
 # Google Analytics Tracking ID
-google_analytics:
+google_analytics: UA-62083781-2
 
 # Social Accounts
 twitter_url: https://twitter.com/katieslynnh
