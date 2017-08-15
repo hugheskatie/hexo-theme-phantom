@@ -32,8 +32,10 @@
     <!--Page Cover-->
     <% if(page.cover) { %>
         <meta property="og:image" content="<%= page.cover %>" />
-    <% } else { %>
+    <% } else if(theme.cover) { %>
         <meta property="og:image" content="<%= theme.cover %>"/>
+    <% } else { %>
+        <meta property="og:image" content="images/why.jpg"/>
     <% } %>
 
     <!-- Title -->

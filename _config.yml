@@ -23,7 +23,7 @@ default_post_title: Untitled
 default_cover_index: "https://s-media-cache-ak0.pinimg.com/736x/53/39/3f/53393f5ba1655261b2d9bd9f8b4e8dc5.jpg"
 
 # Default post cover index page (Optional)
-default_cover_detail:
+default_cover_detail: "https://s-media-cache-ak0.pinimg.com/736x/53/39/3f/53393f5ba1655261b2d9bd9f8b4e8dc5.jpg"
 
 # Show Dates for posts and pages
 show_dates:
